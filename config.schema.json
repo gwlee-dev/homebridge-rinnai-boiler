@@ -1,16 +1,30 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "RinnaiBoilerPlugin",
   "pluginType": "platform",
   "singular": true,
   "strictValidation": false,
   "schema": {
     "type": "object",
     "properties": {
-      "name": {
-        "title": "Name",
+      "email": {
+        "title": "Email",
         "type": "string",
-        "required": true,
-        "default": "Example Dynamic Platform"
+        "required": true
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true
+      },
+      "deviceId": {
+        "title": "Device ID",
+        "type": "string",
+        "required": true
+      },
+      "deviceToken": {
+        "title": "Device Token",
+        "type": "string",
+        "required": true
       }
     }
   }

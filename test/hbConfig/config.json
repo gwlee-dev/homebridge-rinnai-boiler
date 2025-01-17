@@ -1,21 +1,18 @@
 {
   "bridge": {
-    "name": "PluginTemplate",
+    "name": "DevBridge",
     "username": "AA:BB:CC:DD:EE:FF",
     "port": 51826,
     "pin": "031-45-154"
   },
   "description": "HomeBridge HTTP Status Control",
-  "plugins": [
-    "homebridge-plugin-name",
-    "homebridge-config-ui-x"
-  ],
+  "plugins": ["homebridge-rinnai-boiler", "homebridge-config-ui-x"],
   "platforms": [
     {
       "name": "Config",
       "port": 8581,
       "auth": "none",
-      "theme": "auto",
+      "theme": "orange",
       "tempUnits": "c",
       "lang": "auto",
       "sudo": false,
@@ -23,8 +20,11 @@
       "debug": false
     },
     {
-      "name": "homebridge-plugin-name",
-      "platform": "ExampleHomebridgePlugin"
+      "email": "",
+      "password": "",
+      "platform": "",
+      "deviceId": "",
+      "deviceToken": ""
     }
   ],
   "accessories": []
