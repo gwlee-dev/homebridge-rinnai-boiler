@@ -1,19 +1,19 @@
 {
-  "name": "homebridge-plugin-name",
-  "displayName": "Plugin Name",
+  "name": "homebridge-rinnai-boiler",
+  "displayName": "Homebridge Rinnai Smart Boiler",
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "description": "A short description about what your plugin does.",
-  "author": "Your Name",
+  "description": "Homebiridge Plugin for Rinnai Smart Boiler WiFI Controller",
+  "author": "Geonwoo Lee",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/USERNAME/GITHUB_PROJECT_NAME#readme",
+  "homepage": "https://github.com/gwlee-dev/homebridge-rinnai-boiler#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/gwlee-dev/homebridge-rinnai-boiler.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/gwlee-dev/homebridge-rinnai-boiler/issues"
   },
   "keywords": [
     "homebridge-plugin"
@@ -34,7 +34,7 @@
     "@types/eslint__js": "^8.42.3",
     "@types/node": "^22.8.6",
     "eslint": "^9.14.0",
-    "homebridge": "^1.8.5",
+    "homebridge": "^2.0.0-beta.0",
     "homebridge-config-ui-x": "^4.68.0",
     "nodemon": "^3.1.7",
     "rimraf": "^6.0.1",
